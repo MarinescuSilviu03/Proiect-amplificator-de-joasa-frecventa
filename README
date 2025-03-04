@@ -1,75 +1,65 @@
-README - Amplificator de Joasă Frecvență
+# README - Amplificator de Joasă Frecvență
 
-Descriere
-
+## Descriere
 Acest proiect constă în proiectarea și realizarea unui amplificator de tensiune de joasă frecvență conform specificațiilor impuse. Amplificatorul trebuie să fie realizat fie prin tehnologie SMT & PCB, fie prin tehnologie THT & perfo-board.
 
-Specificații Tehnice
+## Specificații Tehnice
+- **Semnal de intrare:** 60 mV - 1320 mV
+- **Sarcina la ieșire (RL):** 10Ω - 220Ω
+- **Rezistența de intrare (Ri):** >150 kΩ
+- **Rezistența de ieșire (Ro):** < 0,1Ω
+- **Amplificare în tensiune (Av):** 10
+- **Domeniul temperaturilor de funcționare:** 0 - 70°C
+- **Indicator LED pentru alimentare**
 
-Semnal de intrare: 60 mV - 1320 mV
+## Metodologie de Proiectare
+### Tehnologie SMT & PCB
+- Dimensiuni PCB: 40mm x 40mm
+- Material: FR4, dublu strat, grosime folie de cupru 18 μm
+- Componente plasate pe fața superioară a PCB-ului (TOP)
+- Utilizarea componentelor SMD 0805, tranzistoare bipolare și TEC-MOS
+- Respectarea standardelor IPC pentru proiectare și fabricație
+- Utilizarea OrCAD pentru simulare și proiectare
 
-Sarcina la ieșire (RL): 10Ω - 220Ω
+### Tehnologie THT & Perfo-board
+- Proiectarea circuitului pe perfo-board
+- Realizarea unui plan de plantare și lista de componente (BOM)
+- Respectarea specificațiilor de proiectare impuse
 
-Rezistența de intrare (Ri): >150 kΩ
+## Fișiere Necesare
+- **Fișiere Gerber**:
+  - Contur placă
+  - Layer electric TOP & BOTTOM
+  - Layer Silk Screen Top
+  - Layer Solder Mask Top & Bottom
+  - Layer Solder Paste Top
+  - Lista de găurire (Excellon)
+- **Documentație suplimentară:**
+  - Schema electrică detaliată
+  - Calcul de dimensionare
+  - Simulări PSPICE
+  - Plan de plantare (pentru varianta THT)
+  - Manual de utilizare
+  - Prezentare PowerPoint
 
-Rezistența de ieșire (Ro): < 0,1Ω
+## Livrabile
+1. **Verificare pe parcurs (max. 50 pct.)**
+   - Predare proiectare și simulări până în săptămâna a VII-a
+   - Predare fișiere Gerber și BOM până în săptămâna a X-a
+2. **Verificare finală (max. 50 pct.)**
+   - Verificare funcțională și documentație completă
+   - Prezentare orală
 
-Amplificare în tensiune (Av): 10
+## Resurse Utile
+- Documentație proiect: [www.dce.pub.ro](http://www.dce.pub.ro)
+- Resurse CAD: [shorturl.at/frBVY](http://shorturl.at/frBVY)
 
-Domeniul temperaturilor de funcționare: 0 - 70°C
+## Bibliografie
+- P. R. Gray, "Analysis and Design of Analog Integrated Circuits", Wiley, 2001
+- D. Self, "Audio Power Amplifier Design Handbook", Newnes, 2006
+- IPC-2221A, "Generic Standard on Printed Board Design"
+- Alte resurse disponibile în documentația atașată
 
-Indicator LED pentru alimentare
+## Contact
+Pentru orice întrebări legate de proiect, contactați coordonatorul de laborator sau consultați resursele online disponibile.
 
-Metodologie de Proiectare
-
-Tehnologie SMT & PCB
-
-Dimensiuni PCB: 40mm x 40mm
-
-Material: FR4, dublu strat, grosime folie de cupru 18 μm
-
-Componente plasate pe fața superioară a PCB-ului (TOP)
-
-Utilizarea componentelor SMD 0805, tranzistoare bipolare și TEC-MOS
-
-Respectarea standardelor IPC pentru proiectare și fabricație
-
-Utilizarea OrCAD pentru simulare și proiectare
-
-Tehnologie THT & Perfo-board
-
-Proiectarea circuitului pe perfo-board
-
-Realizarea unui plan de plantare și lista de componente (BOM)
-
-Respectarea specificațiilor de proiectare impuse
-
-Fișiere Necesare
-
-Fișiere Gerber:
-
-Contur placă
-
-Layer electric TOP & BOTTOM
-
-Layer Silk Screen Top
-
-Layer Solder Mask Top & Bottom
-
-Layer Solder Paste Top
-
-Lista de găurire (Excellon)
-
-Documentație suplimentară:
-
-Schema electrică detaliată
-
-Calcul de dimensionare
-
-Simulări PSPICE
-
-Plan de plantare (pentru varianta THT)
-
-Manual de utilizare
-
-Prezentare PowerPoint
