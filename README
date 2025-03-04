@@ -1,0 +1,75 @@
+README - Amplificator de Joasă Frecvență
+
+Descriere
+
+Acest proiect constă în proiectarea și realizarea unui amplificator de tensiune de joasă frecvență conform specificațiilor impuse. Amplificatorul trebuie să fie realizat fie prin tehnologie SMT & PCB, fie prin tehnologie THT & perfo-board.
+
+Specificații Tehnice
+
+Semnal de intrare: 60 mV - 1320 mV
+
+Sarcina la ieșire (RL): 10Ω - 220Ω
+
+Rezistența de intrare (Ri): >150 kΩ
+
+Rezistența de ieșire (Ro): < 0,1Ω
+
+Amplificare în tensiune (Av): 10
+
+Domeniul temperaturilor de funcționare: 0 - 70°C
+
+Indicator LED pentru alimentare
+
+Metodologie de Proiectare
+
+Tehnologie SMT & PCB
+
+Dimensiuni PCB: 40mm x 40mm
+
+Material: FR4, dublu strat, grosime folie de cupru 18 μm
+
+Componente plasate pe fața superioară a PCB-ului (TOP)
+
+Utilizarea componentelor SMD 0805, tranzistoare bipolare și TEC-MOS
+
+Respectarea standardelor IPC pentru proiectare și fabricație
+
+Utilizarea OrCAD pentru simulare și proiectare
+
+Tehnologie THT & Perfo-board
+
+Proiectarea circuitului pe perfo-board
+
+Realizarea unui plan de plantare și lista de componente (BOM)
+
+Respectarea specificațiilor de proiectare impuse
+
+Fișiere Necesare
+
+Fișiere Gerber:
+
+Contur placă
+
+Layer electric TOP & BOTTOM
+
+Layer Silk Screen Top
+
+Layer Solder Mask Top & Bottom
+
+Layer Solder Paste Top
+
+Lista de găurire (Excellon)
+
+Documentație suplimentară:
+
+Schema electrică detaliată
+
+Calcul de dimensionare
+
+Simulări PSPICE
+
+Plan de plantare (pentru varianta THT)
+
+Manual de utilizare
+
+Prezentare PowerPoint
